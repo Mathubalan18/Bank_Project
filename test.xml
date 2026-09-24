@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM
+        "https://testng.org/testng-1.0.dtd">
+
+<suite name="ParaBank Automation Suite" parallel="true" thread-count="4">
+
+    <test name="ParaBank Tests">
+
+        <classes>
+			
+            <class name="paraBank.Registration"/>
+            <class name="paraBank.Login"/>
+            <class name="paraBank.AccountTest"/>
+            <class name="paraBank.TransferTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
